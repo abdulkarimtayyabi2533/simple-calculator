@@ -6,10 +6,10 @@ body {
   align-items: center;
   justify-content: center;
   background:
-    radial-gradient(600px 400px at 15% 20%, rgba(139, 92, 246, 0.45), transparent 60%),
-    radial-gradient(500px 400px at 85% 80%, rgba(34, 211, 238, 0.35), transparent 60%),
-    radial-gradient(700px 500px at 80% 10%, rgba(236, 72, 153, 0.30), transparent 60%),
-    #0b1026;
+    radial-gradient(600px 400px at 15% 20%, rgba(225, 29, 72, 0.45), transparent 60%),
+    radial-gradient(500px 400px at 85% 80%, rgba(251, 113, 133, 0.35), transparent 60%),
+    radial-gradient(700px 500px at 80% 10%, rgba(245, 158, 11, 0.30), transparent 60%),
+    #2a0a12;
   background-size: 200% 200%;
   animation: aurora 14s ease-in-out infinite alternate;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -27,10 +27,10 @@ body {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(251, 113, 133, 0.28);
   border-radius: 28px;
   padding: 20px;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55), 0 0 40px rgba(225, 29, 72, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   animation: rise-in 0.5s ease both;
 }
 
@@ -40,8 +40,8 @@ body {
 }
 
 .display {
-  background: rgba(2, 6, 23, 0.55);
-  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(42, 10, 18, 0.55);
+  border: 1px solid rgba(251, 113, 133, 0.22);
   border-radius: 18px;
   padding: 20px 16px;
   margin-bottom: 16px;
@@ -52,18 +52,18 @@ body {
 }
 
 .history {
-  color: #a5b4fc;
+  color: #fda4af;
   font-size: 16px;
   min-height: 22px;
   word-break: break-all;
 }
 
 .current {
-  color: #f8fafc;
+  color: #fff1f2;
   font-size: 40px;
   font-weight: 600;
   word-break: break-all;
-  text-shadow: 0 0 24px rgba(139, 92, 246, 0.45);
+  text-shadow: 0 0 24px rgba(225, 29, 72, 0.55);
 }
 
 .buttons {
@@ -85,8 +85,8 @@ body {
 .btn:active { transform: scale(0.94); }
 .btn:hover { filter: brightness(1.15); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35); }
 
-.btn.number { background: rgba(255, 255, 255, 0.10); color: #f8fafc; }
-.btn.utility { background: rgba(148, 163, 184, 0.22); color: #f8fafc; }
-.btn.operator { background: linear-gradient(135deg, #8b5cf6, #6366f1); color: #ffffff; box-shadow: 0 4px 16px rgba(139, 92, 246, 0.45); }
-.btn.equals { background: linear-gradient(135deg, #ec4899, #8b5cf6); color: #ffffff; box-shadow: 0 4px 18px rgba(236, 72, 153, 0.5); }
+.btn.number { background: rgba(255, 255, 255, 0.10); color: #fff1f2; }
+.btn.utility { background: rgba(148, 163, 184, 0.22); color: #fff1f2; }
+.btn.operator { background: linear-gradient(135deg, #e11d48, #be123c); color: #ffffff; box-shadow: 0 4px 16px rgba(225, 29, 72, 0.45); }
+.btn.equals { background: linear-gradient(135deg, #f59e0b, #d97706); color: #ffffff; box-shadow: 0 4px 18px rgba(245, 158, 11, 0.5); }
 .btn.wide { grid-column: span 2; }
